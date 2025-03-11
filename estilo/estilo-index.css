@@ -45,6 +45,10 @@ body {
     transform: scale(1.05);
 }
 
+#bt2 button {
+    margin-top: 15px;
+}
+
 
 
 /* ESTILO CABEÇALHO */
@@ -132,6 +136,18 @@ section.topo-do-site .flex {
     border: 7px solid var(--cor1);
     border-radius: 50%;
     background-color: white;
+}
+
+.img-topo-do-site p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 40px;
+    color: #fff;
+}
+
+.img-topo-do-site p span {
+    text-shadow: 2px 3px 7px var(--cor1);
+    color: var(--cor1);
 }
 
 .topo-do-site .img-topo-do-site img {
@@ -554,6 +570,10 @@ footer .line-footer p a {
 
 
 
+    header {
+        display: none;
+    }
+
     #menu,
     .btn-contato {
         display: none;
@@ -571,6 +591,10 @@ footer .line-footer p a {
 
     section.topo-do-site {
         padding: 0px 8%;
+    }
+
+    .topo-do-site img {
+        margin-top: 20px;
     }
 
     .topo-do-site h1 {
