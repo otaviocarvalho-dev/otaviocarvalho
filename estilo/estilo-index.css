@@ -57,12 +57,16 @@ body {
 
 header {
     box-sizing: border-box;
-    height: 8vh;
-    padding: 40px 4%;
-}
+    height: 70px;
+    width: 100vw;
+    padding: 15px;
 
-.logo img {
-    height: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+
+    background-color: #000;
 }
 
 header .interface #nav {
@@ -87,11 +91,16 @@ header .interface #nav {
 #menu {
     display: flex;
     gap: 30px;
+    margin-left: 10px;
     list-style-type: none;
 }
 
 #menu a {
     padding: 0rem 0.3rem;
+}
+
+#bt1 {
+    margin-right: 15px;
 }
 
 
@@ -101,6 +110,7 @@ header .interface #nav {
 
 
 section.topo-do-site {
+    margin-top: 8vh;
     padding: 40px 4%;
 }
 
@@ -228,8 +238,36 @@ section.especialidades .flex {
 
 .especialidades .especialidades-box h2 {
     margin-top: 15px;
-    font-size: 2.5rem;
+    font-size: 2rem;
     line-height: 50px;
+}
+
+#titulo-desenvolvedor {
+    color: var(--cor1);
+}
+
+#titulo-desenvolvedor span {
+    color: #fff;
+}
+
+#titulo-html {
+    color: #F16529;
+}
+
+#titulo-css {
+    color: #2965F1;
+}
+
+#titulo-javascript {
+    color: #FBD725;
+}
+
+#titulo-python {
+    color: #FFE467;
+}
+
+#titulo-python span {
+    color: #417FB0;
 }
 
 .especialidades .especialidades-box p {
