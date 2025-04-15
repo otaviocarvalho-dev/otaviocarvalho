@@ -444,6 +444,13 @@ section.portfolio h1 span {
     cursor: pointer;
 }
 
+.overlay .nome_projeto {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: var(--cor5);
+}
+
 .overlay .em-breve {
     width: 100%;
     padding: 10px;
@@ -643,6 +650,7 @@ footer .line-footer p a {
     .topo-do-site .txt-topo-do-site p {
         font-size: 1.5rem;
         line-height: 30px;
+        text-align: start;
         margin: 40px 0px;
     }
 

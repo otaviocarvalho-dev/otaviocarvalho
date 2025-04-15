@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    height: 100vh;
+    font-size: 1.6rem;
+    background-color: #ccc;
+    overflow-x: hidden;
+}
+
+#header {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: 1fr;
+    height: 120px;
+    width: 100vw;
+    padding: 20px;
+    background-color: rgb(60, 60, 60);
+}
+
+#voltar {
+    grid: 1 2 / 1 2;
+}
+
+#link_voltar i {
+    height: min-content;
+    width: min-content;
+    font-size: 4rem;
+    color: #fff;
+    transition: .0.5s;
+}
+
+#link_voltar i:hover {
+    font-size: 4.25rem;
+}
+
+#titulos {
+    grid: 1 2 / 2 3;
+    justify-self: center;
+    text-align: center;
+}
+
+#header h1 {
+    padding: 10px 0;
+    font-size: 4rem;
+    color: #fff;
+}
+
+#header h2 {
+    font-size: 2.7rem;
+    color: #999999;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+#main h3 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 2rem;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+li {
+    font-size: 2rem;
+}
+
+#link_projeto {
+    align-self: center;
+}
+
+#link_projeto button {
+    margin-bottom: 20px;
+    padding: 12px 40px;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    background-color: rgb(20, 20, 20);
+    transition: .0.5s;
+}
+
+#link_projeto button:hover {
+    cursor: pointer;
+    transform: scale(1.04);
+}
